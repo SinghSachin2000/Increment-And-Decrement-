@@ -1,0 +1,41 @@
+*,*::after,*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    background-color: black;
+    width: 100vw;
+    height:100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.heading{
+    color: white;
+    font-size:x-large;
+}
+.mainContent{
+    display: flex;
+    width: 40%;
+    margin-top: 20px;
+    justify-content: center;
+}
+.increase{
+    padding: 9px;
+    font-size:xx-large;
+}
+.decrease{
+    padding: 9px;
+    font-size:xx-large;
+}
+.number{
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: xx-large;
+}
